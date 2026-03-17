@@ -8,7 +8,9 @@ The package was developed in the framework of regression of water stable isotope
 Install directly from GitHub using `pip`:
 
 ```bash
-pip install git+[https://github.com/IsotopesHydro/MWLRegressionPython/MWLRegression.git](https://github.com/IsotopesHydro/MWLRegressionPython/MWLRegression.git)
+git clone https://github.com/IsotopesHydro/MWLRegressionPy.git
+cd MWLRegressionPy
+pip install -r requirements.txt
 ```
 
 ## Overview
