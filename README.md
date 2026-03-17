@@ -24,12 +24,12 @@ A quick overview of some of the functions:
 Here is an example of how to import the package and run a regression using data from a CSV file.
 
 Expected CSV format:
-Plaintext
-
+```bash
 Xi   Yi   errXi  errYi 
 x1   y1   errx1  erry1 
 ...  ...  ...    ...   
 xn   yn   errxn  erryn 
+```
 
 (Note: Headers are not mandatory in the data table, but if your file does not have headers, remember to adjust the pd.read_csv function accordingly).
 
